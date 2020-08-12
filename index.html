@@ -5,10 +5,48 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Survey</title>
+    <title>T I N D E R 2</title>
   </head>
   <body>
-
+    <div class="container">
+      <h2>Tinder 2.0</h2>
+      <form id="formOne">
+        <div class="formGroup">
+          <label for="userName">Enter your name</label>
+          <input id="userName" class="form-control" type="text">
+        </div>
+        <!-- Select Box -->
+        <label for="age">Enter your age group</label>
+        <select class="form-control" id="age">
+          <option>18 - 29 yo</option>
+          <option>30 - 39 yo</option>
+          <option>40 - 49 yo</option>
+          <option>50+</option>
+        </select>
+        <!-- Radio Buttons -->
+        <label for="radio">Choose an adventure</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="Date" value="teacher">
+            Finding your elementary school teacher's house and egging it.
+            </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="Date" value="skydiving">
+            Tandem skydiving!
+            </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="Date" value="flowerpicking">
+            Picking flowers at the cemetery.
+            </label>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <h4 class="results"></h4>
+    </div>
   </body>
   </html>
 

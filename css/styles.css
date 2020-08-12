@@ -1,0 +1,17 @@
+h2 {
+  color: purple;
+  text-align: center;
+}
+.btn {
+  color: white;
+  background-color: purple;
+}
+
+.results {
+  display: none;
+}
+
+h4 {
+  text-align: center;
+  font-size: x-large;
+}
